@@ -1,0 +1,18 @@
+package pl.kobietydokodu.bazakotow.model;
+
+import java.util.Date;
+
+public class Kot {
+	
+	private String imie;
+	private Date dataUr;
+	private float waga;
+	private String imieOpiekuna;
+	
+	public String przedstawSie () {
+		return "Cześć, jestem " +imie+" urodzony " +dataUr+ ", waze "+waga+", opiekun moj nazywa sie "+imieOpiekuna;
+		
+		
+	}
+
+}

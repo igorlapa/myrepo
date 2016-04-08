@@ -1,0 +1,12 @@
+package pl.kobietydokodu.bazakotow.model;
+
+import java.util.Date;
+
+public class Kot {
+	
+	String name;
+	Date dateOfBirth;
+	float waga;
+	String imieOpiekuna;
+
+}
